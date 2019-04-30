@@ -11,7 +11,7 @@ The way this program works is that it first generates a "population". This popul
 
 Next, the "fitness" of each image is calculated. Fitness is calculated by the following formulas:
 
-&nbsp;&nbsp;&nbsp;&nbsp; Denote the input image by *A* and an arbitrary image by *B*. Let *n* be the number of pixels in each of these images. 
+&nbsp;&nbsp;&nbsp;&nbsp; Denote the input image by *A* and an arbitrary image by *B*. Let *n* be the number of pixels in each of these images.  
 &nbsp;&nbsp;&nbsp;&nbsp; Denote a pixel *i* in *A* by *A(i)* and in *B* by *B(i)*. Let
 
 &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://latex.codecogs.com/svg.latex?d(i)=[A(i).r&space;-&space;B(i).r]^2&space;&plus;&space;[A(i).g&space;-&space;B(i).g]^2&space;&plus;&space;[A(i).b&space;-&space;B(i).b]^2" title="d(i)=[A(i).r - B(i).r]^2 + [A(i).g - B(i).g]^2 + [A(i).b - B(i).b]^2" />
@@ -22,7 +22,7 @@ Next, the "fitness" of each image is calculated. Fitness is calculated by the fo
 
 &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://latex.codecogs.com/svg.latex?f(A,&space;B)&space;=&space;\sqrt{\sum_{i=1}^{n}{d(i)}}" title="f(A, B) = \sqrt{\sum_{i=1}^{n}{d(i)}}" />
 
-&nbsp;&nbsp;&nbsp;&nbsp; The population is then sorted base on the fitness values in ascending order.
+The population is then sorted base on the fitness values in ascending order.
 
 The program now begins the mutation process. The program uses a [genetic algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) to mutate the population (this allows the program to generate images that will converge to the inputted image). Then the last 75% of the population has random pixels (determined by the `mutation_rate`) replaced with new randomly generated pixels. The mutation process is then loop for a total of `num_generations` times.
 
