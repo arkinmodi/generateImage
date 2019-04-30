@@ -11,7 +11,7 @@ A visualization of the evolution of `escher` and `mcmaster`. Each frame of the v
 [![Escher](https://github.com/arkinmodi/generateImage/blob/master/export/image/me2.ppm) ![Escher](https://github.com/arkinmodi/generateImage/blob/master/me.ppm)](https://youtu.be/xwlO-Sd1wuU)
 
 ### McMaster
-[![McMaster](https://github.com/arkinmodi/generateImage/blob/master/export/image/mcmaster2.ppm)](https://youtu.be/xwlO-Sd1wuU)
+![McMaster](https://github.com/arkinmodi/generateImage/blob/master/export/image/mcmaster2.ppm)
 
 ### Note
 `a4.h`, `crossover.c`, `main.c`, and `makefile` were provided by [Dr. Ned Nedialkov](http://www.cas.mcmaster.ca/~nedialk/).
