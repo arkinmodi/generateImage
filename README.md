@@ -11,7 +11,8 @@ The way this program works is that it first generates a "population". This popul
 
 Next, the "fitness" of each image is calculated. Fitness is calculated by the following formulas:
 
-&nbsp;&nbsp;&nbsp;&nbsp; Denote the input image by *A* and an arbitrary image by *B*. Let *n* be the number of pixels in each of these images. Denote a pixel *i* in *A* by *A(i)* and in *B* by *B(i)*. Let
+&nbsp;&nbsp;&nbsp;&nbsp; Denote the input image by *A* and an arbitrary image by *B*. Let *n* be the number of pixels in each of these images. 
+&nbsp;&nbsp;&nbsp;&nbsp; Denote a pixel *i* in *A* by *A(i)* and in *B* by *B(i)*. Let
 
 &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://latex.codecogs.com/svg.latex?d(i)=[A(i).r&space;-&space;B(i).r]^2&space;&plus;&space;[A(i).g&space;-&space;B(i).g]^2&space;&plus;&space;[A(i).b&space;-&space;B(i).b]^2" title="d(i)=[A(i).r - B(i).r]^2 + [A(i).g - B(i).g]^2 + [A(i).b - B(i).b]^2" />
 
